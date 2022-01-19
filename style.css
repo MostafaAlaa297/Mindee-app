@@ -50,6 +50,11 @@ body{
         text-transform: uppercase;
     }
 
+    #intro-line {
+        color: #fff;
+        text-align: center;
+    }
+
     #title span {
         color: #FFD600;
     }
@@ -101,7 +106,12 @@ body{
 
     @media screen and (max-width: 900px) {
       #textarea {
-        /* width: calc(100%-10px); */
         max-width: 75%;
+      }
+    }
+
+    @media screen and (max-width: 650px) {
+      #textarea, #submit_button {
+        outline: none;
       }
     }
