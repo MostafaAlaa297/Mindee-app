@@ -22,7 +22,7 @@ let dictionary = [
     [/(?=\w+)?\./g, ". "],
     [/\n./g, "."],
     [/(\.)(\s+)(\.)/g, match => match.join("")],
-    [/(\p{P})(\s+)(\p{P})/gu, match => match.join("")],
+//     [/(\p{P})(\s+)(\p{P})/gu, match => match.join("")],
     [/([؟!])(\.)/g, match => [...match].shift()],
     [/\s+؟/g, "؟ "],
     [/\n؟/g, "؟"],
