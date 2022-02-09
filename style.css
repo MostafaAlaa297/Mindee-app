@@ -112,4 +112,49 @@ body{
     #textarea {
       max-width: 75%;
     }
+<<<<<<< HEAD
   }
+=======
+
+    #textarea::placeholder {
+      text-align: center;
+    }
+
+
+    #submit_button {
+        background-color: #000;
+        color: #ffffff;
+        padding: 0.75rem 3rem;
+        outline: 1px solid #FFD600;
+        border-radius: 25px;
+        cursor: pointer;
+        margin-top: 2rem;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+
+    #textarea, #submit_button:focus{
+        outline: 1px solid #fff;
+    }
+    
+    #footer {
+        color: grey;
+        text-align: center;
+        margin-top: 10rem;
+    }
+
+    @media screen and (max-width: 900px) {
+      #textarea {
+        max-width: 75%;
+      }
+      #title, #submit_button {
+        max-width: 75%;
+      }  
+    }
+
+    @media screen and (max-width: 650px) {
+      #textarea, #submit_button {
+        outline: none;
+      }
+    }
+>>>>>>> 7ca37eebf2675c8e66e2cbc4a70bd38d1a913248
